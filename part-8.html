@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration</title>
+    <link rel="stylesheet" href="part-8.css">
+</head>
+<body>
+
+<header>
+    <h1>Urine Test Strip Reader System</h1>
+    <h2>Patient Registration Form</h2>
+    <hr>
+</header>
+
+<main>
+
+<form action="#" method="post">
+
+<fieldset>
+<legend><b>Patient Details</b></legend>
+
+<label for="pid">Patient ID :</label><br>
+<input type="text" id="pid" name="pid" required><br><br>
+
+<label for="pname">Patient Name :</label><br>
+<input type="text" id="pname" name="pname" required><br><br>
+
+<label for="age">Age :</label><br>
+<input type="number" id="age" name="age" min="1" max="120" required><br><br>
+
+<label>Gender :</label><br>
+
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female">Female</label>
+
+<input type="radio" id="other" name="gender" value="Other">
+<label for="other">Other</label>
+
+<br><br>
+
+<label for="mobile">Mobile Number :</label><br>
+<input type="tel" id="mobile" name="mobile" maxlength="10" required><br><br>
+
+<label for="email">Email :</label><br>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="date">Test Date :</label><br>
+<input type="date" id="date" name="date" required><br><br>
+
+<label for="doctor">Doctor Name :</label><br>
+
+<select id="doctor" name="doctor">
+<option>Select Doctor</option>
+<option>Dr. Mehta</option>
+<option>Dr. Sharma</option>
+<option>Dr. Patel</option>
+<option>Dr. Kulkarni</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend><b>Symptoms</b></legend>
+
+<input type="checkbox" id="fever" name="symptoms" value="Fever">
+<label for="fever">Fever</label><br>
+
+<input type="checkbox" id="burning" name="symptoms" value="Burning Urination">
+<label for="burning">Burning Urination</label><br>
+
+<input type="checkbox" id="pain" name="symptoms" value="Abdominal Pain">
+<label for="pain">Abdominal Pain</label><br>
+
+<input type="checkbox" id="frequent" name="symptoms" value="Frequent Urination">
+<label for="frequent">Frequent Urination</label><br>
+
+<input type="checkbox" id="blood" name="symptoms" value="Blood in Urine">
+<label for="blood">Blood in Urine</label><br>
+
+<input type="checkbox" id="fatigue" name="symptoms" value="Fatigue">
+<label for="fatigue">Fatigue</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend><b>Preferred Report Format</b></legend>
+
+<input type="radio" id="pdf" name="report" value="PDF">
+<label for="pdf">PDF Report</label><br>
+
+<input type="radio" id="emailreport" name="report" value="Email">
+<label for="emailreport">Email Report</label><br>
+
+<input type="radio" id="printed" name="report" value="Printed">
+<label for="printed">Printed Copy</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend><b>Additional Information</b></legend>
+
+<label for="remarks">Remarks :</label><br>
+
+<textarea id="remarks" name="remarks" rows="5" cols="50" placeholder="Enter additional medical information here..."></textarea>
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Register Patient">
+<input type="reset" value="Reset Form">
+
+</form>
+
+</main>
+
+<hr>
+
+<footer>
+
+<p>K. J. Somaiya Hospital & Research Center</p>
+<p>AI Enabled Urine Test Strip Reader System</p>
+<p>&copy; 2026 Healthcare Diagnostic Portal</p>
+
+</footer>
+
+<script src="part-8.js"></script>
+
+</body>
+</html>

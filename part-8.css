@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    margin: 20px;
+}
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid navy;
+}
+header h1 {
+    color: darkblue;
+}
+header h2 {
+    color: black;
+}
+form {
+    width: 70%;
+    margin: auto;
+}
+fieldset {
+    border: 2px solid navy;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+legend {
+    font-weight: bold;
+    color: navy;
+    padding: 5px 10px;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid royalblue;
+    background-color: #eef6ff;
+    outline: none;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: darkgreen;
+}
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
